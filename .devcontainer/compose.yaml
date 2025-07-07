@@ -1,0 +1,8 @@
+services:
+  docker-backup-tool:
+    build: .
+    user: root
+    command: sleep infinity
+    volumes:
+      - ..:/workspaces:cached
+      - /var/run/docker.sock:/var/run/docker.sock:ro

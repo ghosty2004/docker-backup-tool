@@ -1,0 +1,1 @@
+export const BACKUP_MODULE_OPTIONS = Symbol.for('BACKUP_MODULE_OPTIONS');
